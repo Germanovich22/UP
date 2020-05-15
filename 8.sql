@@ -1,0 +1,1 @@
+SELECT b.name, COUNT(*) FROM lab11.post a join lab11.user b on a.user_id=b.user_id where a.created_at >= CURDATE() group by b.name having count(*)>3

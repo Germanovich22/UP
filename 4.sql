@@ -1,0 +1,1 @@
+SELECT distinct name FROM lab11.user;

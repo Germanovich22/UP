@@ -1,0 +1,1 @@
+SELECT b.name FROM lab11.post a join lab11.user b on a.user_id=b.user_id group by b.name having count(*)>3

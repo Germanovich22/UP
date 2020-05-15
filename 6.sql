@@ -1,0 +1,1 @@
+SELECT distinct b.name , count(*) FROM lab11.post a join lab11.user b on a.user_id=b.user_id where CREATED_AT like '%-03-01 %' group by b.name;
